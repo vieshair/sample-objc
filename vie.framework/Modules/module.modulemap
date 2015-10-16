@@ -1,0 +1,6 @@
+framework module vie {
+  umbrella header "vie.h"
+
+  export *
+  module * { export * }
+}
