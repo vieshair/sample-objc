@@ -60,3 +60,10 @@ clone したディレクトリ内の docs ディレクトリと sampleプロジ�
 - [PHILIPS Hue](http://www2.meethue.com/ja-jp/) 検索(初期設定),ランプ色変更  
 - オリジナルのイコライザ作成  
 
+----
+### 質問 等
+ユーザーコミュニティとして [issues(投稿)](https://github.com/vieshare/sample-objc/issues)を利用しています。  
+使っていく中での不明点、Tips、利用例などを投稿してください。   
+不明点や不具合等については回答保証はありませんが、出来る限り [tfuru](https://github.com/tfuru) が回答致します。   
+
+
