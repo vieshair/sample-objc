@@ -1,7 +1,7 @@
 # VIEとは?
 モノをもってコトをなす [OMOTENASY LLC.](http://www.omotenasy.net) が開発中の音楽系デバイスです。    
-[VIE SHARE](http://www.omotenasy.net/works/#vie)   
-(写真等をここに配置する)
+[VIE SHARE](vie.style)   
+![VIE SHARE](https://dl.dropboxusercontent.com/u/6674841/vie/docs/github/vie_device0.jpg)
 
 ## 新規プロジェクトへの VIE フレームワーク導入手順
 xcodeで 新規作成したプロジェクト への vie.framework の導入手順を説明します。
@@ -37,7 +37,10 @@ UIKit.framework
 ### ViewController に vieの色を変更するSampleコードを追加
 アプリを起動するとBluetoothで接続中のVIEデバイスのLEDを赤に設定するコード
 
-```
+``` 
+//VIE ライブラリを読み込む
+#import <vie/VieUtil.h>
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -50,5 +53,10 @@ UIKit.framework
 
 ```
 
-### vie.frameworkのその他機能について
-clone したディレクトリ内の docs ディレクトリと sampleプロジェクトを参考にしてください。
+### vie.framework の その他機能について
+以下の様な機能が vie.framework に実装されています。  
+clone したディレクトリ内の docs ディレクトリと sampleプロジェクト を参考にしてください。  
+- 音楽再生,一時停止,停止  
+- [PHILIPS Hue](http://www2.meethue.com/ja-jp/) 検索(初期設定),ランプ色変更  
+- オリジナルのイコライザ作成  
+
