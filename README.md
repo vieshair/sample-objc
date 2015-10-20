@@ -1,4 +1,4 @@
-# VIEとは?
+# VIE SHAIR とは?
 モノをもってコトをなす [OMOTENASY LLC.](http://www.omotenasy.net) が開発中の音楽系デバイスです。    
 [VIE SHAIR](http://vie.style)   
 ![VIE SHAIR](https://dl.dropboxusercontent.com/u/6674841/vie/docs/github/vie_device0.jpg)
